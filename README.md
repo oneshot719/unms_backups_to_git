@@ -1,8 +1,7 @@
 # unms_backups_to_git
 ubiquity UNMS
 
-# edgerouter
-# edge switch
+supports all devices that UNMS supports, edgerouter, edgeswitch, etc...
 
 UNMS polls devices for changes and makes backups locally on UNMS, also makes backups of it's own UNMS configs.
 All unms backups while appearing to be binary data are intact tar.gz files, so we extrace those files to get a diff while also backing up the original so we can restore it directly to a device without UNMS if needed.
